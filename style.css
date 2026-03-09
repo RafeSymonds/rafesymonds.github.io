@@ -105,7 +105,7 @@ strong { font-weight: 600; color: var(--text); }
   font-size: 0.9rem; font-weight: 600; color: var(--text);
   letter-spacing: -0.02em;
 }
-.nav-logo span { color: var(--text-muted); font-weight: 400; }
+.nav-logo span { font-weight: 600; }
 .nav-links { display: flex; gap: 32px; }
 .nav-links a {
   font-size: 0.85rem; font-weight: 500; color: var(--text-muted);

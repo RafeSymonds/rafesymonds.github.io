@@ -234,7 +234,7 @@ strong { font-weight: 600; color: var(--text); }
   width: 100%; height: auto; border-radius: 12px;
 }
 .showcase-screenshot-full {
-  margin: 0 auto 32px; border-radius: 12px; overflow: hidden;
+  margin: 24px auto 32px; border-radius: 12px; overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: 0 8px 32px rgba(0,0,0,0.4);
   max-width: 600px;

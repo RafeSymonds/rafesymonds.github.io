@@ -14,4 +14,4 @@ MSE student in CSE at the University of Michigan. Currently focused on AI agent 
 
 ---
 
-📫 rsymonds@umich.edu · [LinkedIn](https://linkedin.com/in/rafe-symonds)
+[LinkedIn](https://linkedin.com/in/rafe-symonds)

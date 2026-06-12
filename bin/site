@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# Local preview server for the static site.
+# Usage: bin/site {start|stop|restart|status}
+set -euo pipefail
+
+PORT="${PORT:-8788}"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PIDFILE="/tmp/rafesymonds-site.pid"
+
+running() {
+  [[ -f "$PIDFILE" ]] && kill -0 "$(cat "$PIDFILE")" 2>/dev/null
+}
+
+start() {
+  if running; then
+    echo "already running (pid $(cat "$PIDFILE")) → http://localhost:$PORT"
+    exit 0
+  fi
+  (cd "$ROOT" && python3 -m http.server "$PORT" >/dev/null 2>&1 &
+   echo $! > "$PIDFILE")
+  echo "started → http://localhost:$PORT"
+}
+
+stop() {
+  if running; then
+    kill "$(cat "$PIDFILE")" && rm -f "$PIDFILE"
+    echo "stopped"
+  else
+    rm -f "$PIDFILE"
+    echo "not running"
+  fi
+}
+
+case "${1:-}" in
+  start)   shift; start "$@" ;;   # --build accepted as no-op: static site, no build step
+  stop)    stop ;;
+  restart) stop; start ;;
+  status)  if running; then echo "running (pid $(cat "$PIDFILE")) → http://localhost:$PORT"; else echo "not running"; fi ;;
+  *)       echo "usage: bin/site {start|stop|restart|status}"; exit 1 ;;
+esac

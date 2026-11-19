@@ -4,278 +4,334 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rafe Symonds</title>
-  <meta name="description" content="MSE CSE student at University of Michigan. Building autonomous AI agent systems." />
-  <meta name="theme-color" content="#060a13" />
+  <meta name="description" content="Rafe Symonds builds AI agents and writes bots that play games: Battlesnake, Screeps, Screeps Arena, Lobs, and a game on Steam." />
+  <meta name="theme-color" content="#111319" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Just+Another+Hand&family=Martian+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=lan12" />
 </head>
 <body>
+  <a class="skip" href="#floor">Skip to the work and projects</a>
 
-  <!-- Grain -->
-  <div class="grain" aria-hidden="true"></div>
+  <div class="room">
 
-  <!-- Scroll progress -->
-  <div class="scroll-progress" aria-hidden="true"></div>
+    <aside class="wall" aria-label="Sign-in sheet">
+      <div class="sheet signin">
+        <h1 class="name">Rafe<br />Symonds</h1>
+        <p class="intro">I build AI agents and write bots that play games. I finish my master's at Michigan in December, then start at Microsoft full-time in January.</p>
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <a href="#top" class="wordmark">Rafe Symonds</a>
-    <nav class="masthead-nav" aria-label="Site">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#teaching">Teaching</a>
-      <span class="nav-sep" aria-hidden="true"></span>
-      <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub&nbsp;↗</a>
-      <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn&nbsp;↗</a>
-    </nav>
-  </header>
+        <nav aria-label="Work and projects">
+          <table class="roster">
+            <tbody>
+              <tr class="group"><th colspan="3" scope="colgroup"><a href="#work">Work</a></th></tr>
+              <tr data-for="microsoft"><td>2026</td><td><a href="#microsoft">Microsoft</a></td><td>Intern, returning</td></tr>
+              <tr data-for="schwab"><td>2025</td><td><a href="#schwab">Charles Schwab</a></td><td>Intern</td></tr>
+              <tr data-for="techsmith"><td>2024</td><td><a href="#techsmith">TechSmith</a></td><td>Intern</td></tr>
+            </tbody>
+            <tbody>
+              <tr class="group"><th colspan="3" scope="colgroup"><a href="#teaching">Teaching</a></th></tr>
+              <tr data-for="aase"><td>2026</td><td><a href="#aase">EECS 498: AASE</a></td><td>GSI</td></tr>
+            </tbody>
+            <tbody>
+              <tr class="group"><th colspan="3" scope="colgroup"><a href="#bots">Projects</a></th></tr>
+              <tr data-for="battlesnake"><td>01</td><td><a href="#battlesnake">Battlesnake</a></td><td>Rust bot</td></tr>
+              <tr data-for="screeps"><td>02</td><td><a href="#screeps">Screeps</a></td><td>Colony AI</td></tr>
+              <tr data-for="arena"><td>03</td><td><a href="#arena">Screeps Arena</a></td><td>Match bot</td></tr>
+              <tr data-for="lobs"><td>04</td><td><a href="#lobs">Lobs on Hermes</a></td><td>My agent</td></tr>
+              <tr data-for="crew"><td>05</td><td><a href="#crew">Crew</a></td><td>Agent workspace</td></tr>
+              <tr data-for="squad"><td>06</td><td><a href="#squad">Squad</a></td><td>Agent platform</td></tr>
+              <tr data-for="magelords"><td>07</td><td><a href="#magelords">Mage Lords</a></td><td>Steam game</td></tr>
+              <tr data-for="drawn"><td>08</td><td><a href="#drawn">Drawn Together</a></td><td>Co-op game</td></tr>
+              <tr data-for="excalive"><td>09</td><td><a href="#excalive">excalive</a></td><td>Slides, videos</td></tr>
+            </tbody>
+          </table>
+        </nav>
 
-  <main id="top">
+        <p class="elsewhere">
+          <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a>
+          <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a>
+        </p>
+      </div>
+    </aside>
 
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <p class="kicker load-1"><span class="kicker-tick" aria-hidden="true"></span>MSE CSE · University of Michigan</p>
-          <h1 class="hero-name load-2">Rafe<br /><span class="hl">Symonds</span></h1>
-          <p class="lede load-3">I build autonomous AI systems that do real work: agent fleets that program, research, write, and review code around the clock.</p>
-          <div class="hero-cta load-4">
-            <a class="btn btn-solid" href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub ↗</a>
-            <a class="btn" href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn ↗</a>
-          </div>
+    <main id="floor" class="floor">
+
+      <section class="zone zone-work" id="work" aria-labelledby="work-h">
+        <header class="sheet sign"><h2 id="work-h">Work</h2></header>
+        <div class="sheet history">
+          <article class="job" id="microsoft" data-seat="microsoft">
+            <p class="job-when">2026</p>
+            <h3>Microsoft</h3>
+            <p>I interned on Azure networking's platform for AI agents that run for weeks at a time, and moved all of its agents onto a new runtime. I go back full-time in January.</p>
+          </article>
+          <article class="job" id="schwab" data-seat="schwab">
+            <p class="job-when">2025</p>
+            <h3>Charles Schwab</h3>
+            <p>I interned on the fractional trading team, writing Java services that talk to each other over Kafka.</p>
+          </article>
+          <article class="job" id="techsmith" data-seat="techsmith">
+            <p class="job-when">2024</p>
+            <h3>TechSmith</h3>
+            <p>I interned on the C++ licensing code behind Snagit and Camtasia.</p>
+          </article>
         </div>
+      </section>
 
-        <aside class="dossier load-5" aria-label="Quick facts">
-          <p class="dossier-head">Dossier · R. Symonds</p>
-          <dl class="dossier-list">
-            <div class="dossier-row">
-              <dt>Now</dt>
-              <dd>MSE student in CSE, University of Michigan</dd>
+      <section class="zone zone-solo" id="teaching" aria-labelledby="teaching-h">
+        <header class="sheet sign"><h2 id="teaching-h">Teaching</h2></header>
+        <div class="seats">
+          <article class="seat" id="aase" data-seat="aase">
+            <a class="screen" href="https://eecs498-aase.github.io/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-media display-cover">
+                <img src="images/aase-site.webp" alt="The EECS 498 Applied Agentic Software Engineering course site" width="1280" height="720" loading="lazy" />
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">498</span>
+              <h3 class="tape"><a href="https://eecs498-aase.github.io/" target="_blank" rel="noopener">EECS 498: AASE<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
             </div>
-            <div class="dossier-row">
-              <dt>Building</dt>
-              <dd>PAW, a multi-agent AI workforce running 24/7</dd>
+            <p class="claim">A Michigan course on building software with coding agents.</p>
+            <div class="sheet spec">
+            <p>Applied Agentic Software Engineering is a course I built with Marcus Darden, and I'm its GSI this fall. Students start with Aider, Codex and Claude Code, then build on top of a real agent harness. There are no exams, only projects and demos.</p>
+            <p class="meta">Fall 2026 · <a href="https://eecs498-aase.github.io/" target="_blank" rel="noopener">eecs498-aase.github.io</a></p>
+            <p class="note">Before this I taught EECS 281 and helped build EECS 291.</p>
             </div>
-            <div class="dossier-row">
-              <dt>Teaching</dt>
-              <dd>GSI for EECS 281 · co-developed EECS 291 &amp; 498-016</dd>
-            </div>
-            <div class="dossier-row">
-              <dt>Summer</dt>
-              <dd>Interning at Microsoft, Azure hyperscale networking</dd>
-            </div>
-            <div class="dossier-row">
-              <dt>Status</dt>
-              <dd><span class="status-dot" aria-hidden="true"></span>Agent fleet online</dd>
-            </div>
-          </dl>
-        </aside>
-      </div>
-      <div class="hero-rule" aria-hidden="true"></div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="section">
-      <div class="container">
-        <header class="section-head reveal">
-          <span class="section-no">01</span>
-          <h2 class="section-title">About</h2>
-          <span class="section-rule" aria-hidden="true"></span>
-        </header>
-
-        <div class="about-grid">
-          <div class="about-text reveal">
-            <p>I got into programming by shipping something real. I built and published a <a href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener">game on Steam</a> while still in high school: 14,000 lines of C#, 50,000+ players across 115 countries. That set the trajectory for everything that followed.</p>
-            <p>Since then I've interned at TechSmith (C++ licensing for Snagit and Camtasia) and Charles Schwab (real-time distributed systems for fractional trading: Java, Spring Boot, Kafka). This summer I'm interning at Microsoft on Azure hyperscale networking.</p>
-            <p>Now I'm an MSE student in CSE at the University of Michigan, where I'm a Graduate Student Instructor for EECS 281 (Data Structures &amp; Algorithms) and co-developed EECS 291, a new Python-based applied DSA course, collaborating directly with the professor on curriculum and assignments.</p>
-            <p>These days my focus is on AI systems, specifically what it looks like when agents stop being toys and start doing real work. I'm building a multi-agent orchestration platform that runs 24/7, handling programming, research, writing, and code review autonomously.</p>
-          </div>
-
-          <dl class="facts reveal">
-            <div class="fact">
-              <dt>Education</dt>
-              <dd>MSE CSE, University of Michigan</dd>
-            </div>
-            <div class="fact">
-              <dt>Internships</dt>
-              <dd>TechSmith · Charles Schwab · Microsoft</dd>
-            </div>
-            <div class="fact">
-              <dt>Teaching</dt>
-              <dd>GSI EECS 281 · co-dev EECS 291 &amp; 498-016</dd>
-            </div>
-            <div class="fact">
-              <dt>First ship</dt>
-              <dd>Steam game · 50,000+ players · 115 countries</dd>
-            </div>
-            <div class="fact">
-              <dt>Agent fleet</dt>
-              <dd>Running 24/7 on a Mac Mini</dd>
-            </div>
-          </dl>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section">
-      <div class="container">
-        <header class="section-head reveal">
-          <span class="section-no">02</span>
-          <h2 class="section-title">Projects</h2>
-          <span class="section-rule" aria-hidden="true"></span>
-        </header>
-
-        <!-- PAW -->
-        <article class="flagship reveal">
-          <div class="flagship-head">
-            <span class="logo-frame"><img src="images/paw-logo.png" alt="PAW Engineering logo" /></span>
-            <div class="flagship-id">
-              <p class="entry-no">P-01 · Flagship</p>
-              <h3 class="flagship-title"><a href="https://paw-engineering.com" target="_blank" rel="noopener">PAW Engineering</a></h3>
-              <p class="entry-role">Personal AI Workforce platform</p>
+      <section class="zone" id="bots" aria-labelledby="bots-h">
+        <header class="sheet sign"><h2 id="bots-h">Bots that play games</h2><p>Games where my code does the playing.</p></header>
+        <div class="seats">
+          <article class="seat" id="battlesnake" data-seat="battlesnake">
+            <a class="screen" href="https://play.battlesnake.com" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display">
+                <canvas class="sim" data-sim="snake" role="img" aria-label="Four snakes playing Battlesnake on an 11 by 11 board"></canvas>
+                <p class="hud"><span>turn <b data-hud="turn">0</b></span><span>alive <b data-hud="alive">4</b></span></p>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">01</span>
+              <h3 class="tape"><a href="https://play.battlesnake.com" target="_blank" rel="noopener">Battlesnake<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
             </div>
-          </div>
-          <p class="entry-desc">Multi-agent orchestration where specialized autonomous agents (programmer, researcher, writer, code reviewer, architect) work in parallel on real tasks. An always-on orchestrator handles task queues, model routing across Claude/GPT/Codex, circuit breaking, failure recovery, and deduplication. Runs 24/7 on a Mac Mini.</p>
-          <p class="meta-line"><span class="meta-label">Specs</span>5 agent types · 24/7 autonomous · model routing · circuit breaking · semantic memory</p>
-          <p class="meta-line"><span class="meta-label">Stack</span>TypeScript · SQLite · OpenClaw · Claude · Codex</p>
-          <p class="entry-links">
-            <a class="btn btn-sm" href="https://paw-engineering.com" target="_blank" rel="noopener">paw-engineering.com ↗</a>
-            <a class="btn btn-sm" href="https://github.com/paw-engineering" target="_blank" rel="noopener">GitHub ↗</a>
-          </p>
-        </article>
-
-        <!-- Lobs -->
-        <article class="flagship reveal">
-          <div class="flagship-head">
-            <span class="logo-frame"><img src="images/lobs-logo.png" alt="Lobs logo" /></span>
-            <div class="flagship-id">
-              <p class="entry-no">P-02 · Flagship</p>
-              <h3 class="flagship-title"><a href="https://lobslab.com" target="_blank" rel="noopener">Lobs</a></h3>
-              <p class="entry-role">Always-on personal AI agent</p>
+            <p class="claim">A snake that plans every move in half a second.</p>
+            <div class="sheet spec">
+            <p>Battlesnake is snake played by code. Each turn the game sends your server the board, and you have 500 milliseconds to pick a direction. Last snake alive wins.</p>
+            <p>Mine is written in Rust. It looks ahead and assumes the other snakes will team up on it, because most games are lost by walking into a dead end. A new idea has to pass an 800-game test before it ships. While I was playing, it held a top-3 spot on the leaderboard.</p>
+            <p class="meta">Rust · private repo</p>
+            <p class="note">The screen is a simple bot simulated in your browser.</p>
             </div>
-          </div>
-          <p class="entry-desc">Not a chatbot. An autonomous agent that runs continuously: it manages the PAW workforce, creates and triages tasks, handles communications across Discord, sets reminders, runs scheduled health checks, and finds new work on its own. Persistent semantic memory, 30-minute heartbeats, and a real-time web dashboard (Nexus) for full visibility into the agent fleet.</p>
-          <figure class="screenshot">
-            <img src="images/nexus-dashboard.jpg" alt="Nexus dashboard showing live agent fleet status" loading="lazy" />
-            <figcaption>Fig. 1: Nexus, the real-time fleet dashboard</figcaption>
-          </figure>
-          <p class="meta-line"><span class="meta-label">Specs</span>semantic memory · 30-min heartbeats · multi-platform · Nexus dashboard · self-directed</p>
-          <p class="meta-line"><span class="meta-label">Stack</span>OpenClaw · TypeScript · Claude Opus · React · Qdrant</p>
-          <p class="entry-links">
-            <a class="btn btn-sm" href="https://lobslab.com" target="_blank" rel="noopener">lobslab.com ↗</a>
-          </p>
-        </article>
+          </article>
 
-        <!-- Flock -->
-        <article class="entry reveal">
-          <span class="entry-index">P-03</span>
-          <div class="entry-main">
-            <h3 class="entry-title">Flock</h3>
-            <p class="entry-role">Social media startup · Co-founder &amp; lead engineer</p>
-            <p class="entry-desc">Full-stack social app with native iOS (Swift) and a strongly-typed Python backend. Real-time chat over WebSockets, location-based events, AI integration via the OpenAI API, and a Discord plugin for multi-platform engagement. Led a 3-person dev team across multiple codebases.</p>
-            <p class="meta-line"><span class="meta-label">Stack</span>Swift · FastAPI · SQLAlchemy · WebSockets · OpenAI</p>
-          </div>
-        </article>
+          <article class="seat" id="screeps" data-seat="screeps">
+            <a class="screen" href="https://screeps.com/a/#!/room/shard3/E14S33" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display">
+                <div class="frames" data-sim="frames" data-every="6">
+                  <img src="images/screeps/e14s33-1.webp" alt="My Screeps room E14S33 on shard 3 in the game client" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-2.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-3.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-4.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-5.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-6.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-7.webp" alt="" width="888" height="666" loading="lazy" />
+                  <img src="images/screeps/e14s33-8.webp" alt="" width="888" height="666" loading="lazy" />
+                </div>
+                <p class="hud hud-over"><span>shard3 <b>E14S33</b></span><span>tick <b data-hud="frame">1</b> of 8</span></p>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">02</span>
+              <h3 class="tape"><a href="https://screeps.com/a/#!/room/shard3/E14S33" target="_blank" rel="noopener">Screeps<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">An MMO you can only play by writing code.</p>
+            <div class="sheet spec">
+            <p>In Screeps you never click a unit. Your JavaScript runs on a shared server every tick and keeps your colony going around the clock.</p>
+            <p>I've played on and off since 2024 and rebuilt my bot from scratch in October. It plays on shard 3, and I test it on a private server on my Mac mini that runs 40 times faster.</p>
+            <p class="meta">TypeScript · private repo</p>
+            <p class="note">The screen is my room E14S33, recorded from the game client.</p>
+            </div>
+          </article>
 
-        <!-- Drawn Together -->
-        <a class="entry entry-link reveal" href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener">
-          <span class="entry-index">P-04</span>
-          <div class="entry-main">
-            <h3 class="entry-title">Drawn Together, Pulled Apart <span class="entry-arrow" aria-hidden="true">↗</span></h3>
-            <p class="entry-role">Couch co-op puzzle game · Capstone</p>
-            <p class="entry-desc">Two-player co-op where you play as living magnets. Use magnetic forces to solve physics puzzles across 10+ hand-crafted levels.</p>
-            <p class="entry-credit">with Alex Smart, Jack Kruger, Pat Attasaranya, Chawit Vongsuly</p>
-            <p class="meta-line"><span class="meta-label">Play</span>free on itch.io</p>
-          </div>
-          <span class="entry-media">
-            <img src="images/drawn-together-gameplay1.gif" alt="Drawn Together gameplay" loading="lazy" />
-          </span>
-        </a>
-
-        <!-- Mage Lords -->
-        <a class="entry entry-link reveal" href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener">
-          <span class="entry-index">P-05</span>
-          <div class="entry-main">
-            <h3 class="entry-title">Land of the Mage Lords <span class="entry-arrow" aria-hidden="true">↗</span></h3>
-            <p class="entry-role">Published on Steam · High school</p>
-            <p class="entry-desc">Where it all started. 14,000+ lines of C# in Unity, published on Steam to 50,000+ players across 115 countries and rated Very Positive (90%). Solo developer: design, code, UI, marketing, release.</p>
-            <p class="meta-line"><span class="meta-label">Stack</span>Unity · C# · Steam</p>
-          </div>
-          <span class="entry-media">
-            <img src="images/mage-lords-capsule.jpg" alt="Land of the Mage Lords" loading="lazy" />
-          </span>
-        </a>
-
-        <!-- Steam embed -->
-        <div class="steam-widget reveal">
-          <p class="steam-caption">Fig. 2: Live Steam listing</p>
-          <iframe src="https://store.steampowered.com/widget/2069220/" title="Land of the Mage Lords on Steam" frameborder="0" width="100%" height="190" loading="lazy"></iframe>
+          <article class="seat" id="arena" data-seat="arena">
+            <a class="screen" href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-media display-cover">
+                <video data-sim="video" muted loop playsinline preload="none" poster="images/arena-trailer-poster.webp" width="720" height="540" aria-label="Screeps Arena gameplay from the official trailer">
+                  <source src="images/arena-trailer.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">03</span>
+              <h3 class="tape"><a href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener">Screeps Arena<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">Screeps as short one-on-one matches.</p>
+            <div class="sheet spec">
+            <p>Two players' code meets on a small map for a single match. In Spawn Strike you win by destroying the other spawn.</p>
+            <p>My bot builds an army, keeps a few units home, and pushes. I test it in my own offline simulator against copies of other players' strategies.</p>
+            <p class="meta">TypeScript · <a href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener">GitHub</a></p>
+            <p class="note">The screen is from the game's official trailer.</p>
+            </div>
+          </article>
         </div>
+      </section>
 
-      </div>
-    </section>
-
-    <!-- Teaching -->
-    <section id="teaching" class="section">
-      <div class="container">
-        <header class="section-head reveal">
-          <span class="section-no">03</span>
-          <h2 class="section-title">Teaching</h2>
-          <span class="section-rule" aria-hidden="true"></span>
-        </header>
-
-        <article class="flagship reveal">
-          <div class="flagship-head">
-            <div class="flagship-id">
-              <p class="entry-no">T-01 · Co-developer</p>
-              <h3 class="flagship-title"><a href="https://eecs498-aase.github.io/" target="_blank" rel="noopener">EECS 498-016: Applied Agentic Software Engineering</a></h3>
-              <p class="entry-role">University of Michigan</p>
+      <section class="zone" id="agents" aria-labelledby="agents-h">
+        <header class="sheet sign"><h2 id="agents-h">Agents</h2><p>Lobs, and what it ran on.</p></header>
+        <div class="seats">
+          <article class="seat" id="lobs" data-seat="lobs">
+            <a class="screen" href="https://github.com/lobs-ai/hermes-extras" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-text">
+                <ol class="ladder" aria-label="Lobs runtimes, January to September 2026">
+                  <li><span>01</span><span>Jan</span><span>Git repo as shared state</span></li>
+                  <li><span>02</span><span>Feb</span><span>FastAPI and SQLite server</span></li>
+                  <li><span>03</span><span>Mar</span><span>lobs-core, TypeScript</span></li>
+                  <li><span>04</span><span>Apr</span><span>Squad</span></li>
+                  <li><span>05</span><span>May</span><span>agentd, a Rust kernel</span></li>
+                  <li><span>06</span><span>Jun</span><span>OpenClaw</span></li>
+                  <li><span>07</span><span>Jul</span><span>Crew</span></li>
+                  <li><span>08</span><span>Sep</span><span>Software Factory</span></li>
+                  <li class="now"><span>09</span><span>Sep</span><span>Hermes</span></li>
+                </ol>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">04</span>
+              <h3 class="tape"><a href="https://github.com/lobs-ai/hermes-extras" target="_blank" rel="noopener">Lobs on Hermes<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
             </div>
-          </div>
-          <p class="entry-desc">A hands-on course on building autonomous AI agents: agent architectures, tool use, memory systems, multi-agent orchestration, and deployment.</p>
-          <p class="meta-line"><span class="meta-label">Topics</span>agent architectures · tool use · memory systems · multi-agent · deployment</p>
-          <p class="entry-links">
-            <a class="btn btn-sm" href="https://eecs498-aase.github.io/" target="_blank" rel="noopener">eecs498-aase.github.io ↗</a>
-          </p>
-        </article>
+            <p class="claim">My personal agent, on its ninth engine.</p>
+            <div class="sheet spec">
+            <p>Lobs runs on a Mac mini all day. It keeps my calendar, tracks course deadlines and sends me a morning brief.</p>
+            <p>I built eight runtimes for it before moving it onto Hermes, the agent platform from Nous Research, in September. My own code now goes into small plugins.</p>
+            <p class="meta">Python · <a href="https://github.com/lobs-ai/hermes-extras" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
 
-        <article class="entry reveal">
-          <span class="entry-index">T-02</span>
-          <div class="entry-main">
-            <h3 class="entry-title">EECS 281: Data Structures &amp; Algorithms</h3>
-            <p class="entry-role">Graduate Student Instructor</p>
-            <p class="entry-desc">Teaching one of Michigan's core CS courses: discussion sections, office hours, and project support.</p>
-          </div>
-        </article>
+          <article class="seat" id="crew" data-seat="crew">
+            <a class="screen" href="https://github.com/lobs-ai" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-chart">
+                <p class="chart-title">Commits per day, July 24 to August 13, 2026</p>
+                <div class="bars" data-chart="crew" role="img" aria-label="Crew commits per day. Peak of 103 on August 5. 314 commits total."></div>
+                <p class="chart-axis"><span>Jul 24</span><span>Aug 13</span></p>
+                <table class="sr-only">
+                  <caption>Crew commits per day</caption>
+                  <thead><tr><th scope="col">Day</th><th scope="col">Commits</th></tr></thead>
+                  <tbody data-chart-table="crew"></tbody>
+                </table>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">05</span>
+              <h3 class="tape"><a href="https://github.com/lobs-ai" target="_blank" rel="noopener">Crew<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">A team of agents, each in its own container.</p>
+            <div class="sheet spec">
+            <p>Crew was the seventh runtime. Every agent got its own Docker container and worked with me over Discord and a desktop app, using Claude Code or Codex underneath.</p>
+            <p>I built it in 22 days: 314 commits and about 100,000 lines.</p>
+            <p class="meta">Go · private repo</p>
+            </div>
+          </article>
 
-        <article class="entry reveal">
-          <span class="entry-index">T-03</span>
-          <div class="entry-main">
-            <h3 class="entry-title">EECS 291: Applied Data Structures in Python</h3>
-            <p class="entry-role">Co-developer</p>
-            <p class="entry-desc">Co-developed a new Python-based applied DSA course, working directly with the professor on curriculum and assignments.</p>
-          </div>
-        </article>
+          <article class="seat" id="squad" data-seat="squad">
+            <a class="screen" href="https://github.com/lobs-ai/squad" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-text">
+<pre class="diagram" aria-label="Squad architecture: Discord, Slack, the dashboard and the CLI talk over one WebSocket to a gateway, which runs the agent loop, a subagent pool, tasks and questions, approvals, and SQLite">Discord   ─┐               ┌─▶ agent loop
+Slack     ─┤               ├─▶ subagent pool
+Dashboard ─┼─ ws ─▶ gateway┼─▶ tasks, questions
+CLI       ─┘               ├─▶ approvals
+                           └─▶ sqlite</pre>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">06</span>
+              <h3 class="tape"><a href="https://github.com/lobs-ai/squad" target="_blank" rel="noopener">Squad<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">An open-source agent platform built around subagents.</p>
+            <div class="sheet spec">
+            <p>Agents share a task list with you, start helper agents with their own models and budgets, and ask you multiple-choice questions that show up as buttons in Discord.</p>
+            <p>It was the main Lobs platform until June.</p>
+            <p class="meta">TypeScript · <a href="https://github.com/lobs-ai/squad" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-      </div>
-    </section>
+      <section class="zone" id="games" aria-labelledby="games-h">
+        <header class="sheet sign"><h2 id="games-h">Games I made</h2></header>
+        <div class="seats">
+          <article class="seat" id="magelords" data-seat="magelords">
+            <a class="screen" href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-media">
+                <div class="frames" data-sim="frames" data-every="34">
+                  <img src="images/mage-lords-1.webp" alt="Land of the Mage Lords: troops march across a desert while a lightning spell strikes" width="960" height="540" loading="lazy" />
+                  <img src="images/mage-lords-3.webp" alt="Land of the Mage Lords: a cave level" width="960" height="540" loading="lazy" />
+                  <img src="images/mage-lords-2.webp" alt="" width="960" height="540" loading="lazy" />
+                  <img src="images/mage-lords-4.webp" alt="" width="960" height="540" loading="lazy" />
+                </div>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">07</span>
+              <h3 class="tape"><a href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener">Land of the Mage Lords<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">The game I shipped on Steam in high school.</p>
+            <div class="sheet spec">
+            <p>A free wave-defense game where you summon troops and cast spells on your way to the Mage King.</p>
+            <p>I made it alone in Unity, about 14,000 lines of C#. It's in over 50,000 Steam libraries and rated Very Positive. It's also what got me into computer science.</p>
+            <p class="meta">Unity, C# · <a href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener">free on Steam</a></p>
+            </div>
+          </article>
 
-  </main>
+          <article class="seat" id="drawn" data-seat="drawn">
+            <a class="screen" href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-media display-pixel">
+                <img data-sim="swap" data-anim="images/drawn-together-gameplay1.gif" src="images/drawn-together-still.png" alt="Drawn Together, Pulled Apart: two magnet characters push and pull each other through a puzzle" width="160" height="100" loading="lazy" />
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">08</span>
+              <h3 class="tape"><a href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener">Drawn Together<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">A co-op puzzle game where both players are magnets.</p>
+            <div class="sheet spec">
+            <p>Our team project for EECS 494, my favorite class at Michigan. You push and pull each other through physics puzzles.</p>
+            <p>Made with Alex Smart, Jack Kruger, Pat Attasaranya and Chawit Vongsuly.</p>
+            <p class="meta">Unity, C# · <a href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener">free on itch.io</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p class="footer-big">Elsewhere</p>
-      <div class="footer-links">
-        <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn ↗</a>
-      </div>
-      <p class="colophon">© 2026 Rafe Symonds</p>
-    </div>
-  </footer>
+      <section class="zone zone-solo" id="tools" aria-labelledby="tools-h">
+        <header class="sheet sign"><h2 id="tools-h">Tools</h2></header>
+        <div class="seats">
+          <article class="seat" id="excalive" data-seat="excalive">
+            <a class="screen" href="https://rafesymonds.com/excalive/" tabindex="-1">
+              <div class="display display-media display-light">
+                <video data-sim="video" muted loop playsinline preload="none" poster="images/excalive-dns-poster.webp" width="768" height="432" aria-label="An excalive video drawing a DNS lookup step by step">
+                  <source src="images/excalive-dns.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </a>
+            <div class="desk">
+              <span class="seat-no">09</span>
+              <h3 class="tape"><a href="https://rafesymonds.com/excalive/">excalive<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+            </div>
+            <p class="claim">Slides and narrated videos from one markdown file.</p>
+            <div class="sheet spec">
+            <p>Draw scenes in Excalidraw, write what to say at each step, and excalive turns it into a slide deck or a video read by a local voice. Before it renders, it checks that every word on screen gets said.</p>
+            <p class="meta">Node · <a href="https://github.com/RafeSymonds/excalive" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-  <script src="main.js"></script>
+      <footer class="colophon">
+        <p>© 2026 Rafe Symonds</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="main.js?v=lan12"></script>
 </body>
 </html>

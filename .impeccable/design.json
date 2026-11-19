@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T15:51:54Z",
+  "title": "Design System: Rafe Symonds",
+  "extensions": {
+    "colorMeta": {
+      "red": {
+        "role": "primary",
+        "displayName": "Seat Light Red",
+        "canonical": "#e2513b",
+        "tonalRamp": [
+          "oklch(15% 0.118 31)",
+          "oklch(26% 0.179 31)",
+          "oklch(38% 0.184 31)",
+          "oklch(49% 0.184 31)",
+          "oklch(61% 0.184 31)",
+          "oklch(72% 0.184 31)",
+          "oklch(84% 0.127 31)",
+          "oklch(95% 0.044 31)"
+        ]
+      },
+      "red-ink": {
+        "role": "primary",
+        "displayName": "Ink Red",
+        "canonical": "#b8321f",
+        "tonalRamp": [
+          "oklch(15% 0.111 31)",
+          "oklch(26% 0.169 31)",
+          "oklch(38% 0.174 31)",
+          "oklch(49% 0.174 31)",
+          "oklch(61% 0.174 31)",
+          "oklch(72% 0.174 31)",
+          "oklch(84% 0.119 31)",
+          "oklch(95% 0.041 31)"
+        ]
+      },
+      "tape": {
+        "role": "secondary",
+        "displayName": "Masking Tape",
+        "canonical": "#e6d5a8",
+        "tonalRamp": [
+          "oklch(15% 0.039 90)",
+          "oklch(26% 0.060 90)",
+          "oklch(38% 0.062 90)",
+          "oklch(49% 0.062 90)",
+          "oklch(61% 0.062 90)",
+          "oklch(72% 0.062 90)",
+          "oklch(84% 0.043 90)",
+          "oklch(95% 0.015 90)"
+        ]
+      },
+      "tape-alt": {
+        "role": "secondary",
+        "displayName": "Second Roll",
+        "canonical": "#ead9ae",
+        "tonalRamp": [
+          "oklch(15% 0.038 89)",
+          "oklch(26% 0.058 89)",
+          "oklch(38% 0.059 89)",
+          "oklch(49% 0.059 89)",
+          "oklch(61% 0.059 89)",
+          "oklch(72% 0.059 89)",
+          "oklch(84% 0.041 89)",
+          "oklch(95% 0.014 89)"
+        ]
+      },
+      "tape-hover": {
+        "role": "secondary",
+        "displayName": "Pressed Tape",
+        "canonical": "#f0e2bb",
+        "tonalRamp": [
+          "oklch(15% 0.034 91)",
+          "oklch(26% 0.052 91)",
+          "oklch(38% 0.053 91)",
+          "oklch(49% 0.053 91)",
+          "oklch(61% 0.053 91)",
+          "oklch(72% 0.053 91)",
+          "oklch(84% 0.037 91)",
+          "oklch(95% 0.013 91)"
+        ]
+      },
+      "team-amber": {
+        "role": "tertiary",
+        "displayName": "Team Amber",
+        "canonical": "#b8891c",
+        "tonalRamp": [
+          "oklch(15% 0.082 82)",
+          "oklch(26% 0.124 82)",
+          "oklch(38% 0.128 82)",
+          "oklch(49% 0.128 82)",
+          "oklch(61% 0.128 82)",
+          "oklch(72% 0.128 82)",
+          "oklch(84% 0.088 82)",
+          "oklch(95% 0.030 82)"
+        ]
+      },
+      "team-blue": {
+        "role": "tertiary",
+        "displayName": "Team Blue",
+        "canonical": "#3d84d6",
+        "tonalRamp": [
+          "oklch(15% 0.092 254)",
+          "oklch(26% 0.140 254)",
+          "oklch(38% 0.144 254)",
+          "oklch(49% 0.144 254)",
+          "oklch(61% 0.144 254)",
+          "oklch(72% 0.144 254)",
+          "oklch(84% 0.099 254)",
+          "oklch(95% 0.034 254)"
+        ]
+      },
+      "team-rose": {
+        "role": "tertiary",
+        "displayName": "Team Rose",
+        "canonical": "#cf5a6a",
+        "tonalRamp": [
+          "oklch(15% 0.095 14)",
+          "oklch(26% 0.144 14)",
+          "oklch(38% 0.148 14)",
+          "oklch(49% 0.148 14)",
+          "oklch(61% 0.148 14)",
+          "oklch(72% 0.148 14)",
+          "oklch(84% 0.102 14)",
+          "oklch(95% 0.035 14)"
+        ]
+      },
+      "team-violet": {
+        "role": "tertiary",
+        "displayName": "Team Violet",
+        "canonical": "#8c6fe0",
+        "tonalRamp": [
+          "oklch(15% 0.105 293)",
+          "oklch(26% 0.161 293)",
+          "oklch(38% 0.165 293)",
+          "oklch(49% 0.165 293)",
+          "oklch(61% 0.165 293)",
+          "oklch(72% 0.165 293)",
+          "oklch(84% 0.114 293)",
+          "oklch(95% 0.039 293)"
+        ]
+      },
+      "room": {
+        "role": "neutral",
+        "displayName": "Unlit Room",
+        "canonical": "#111319",
+        "tonalRamp": [
+          "oklch(15% 0.008 271)",
+          "oklch(26% 0.012 271)",
+          "oklch(38% 0.013 271)",
+          "oklch(49% 0.013 271)",
+          "oklch(61% 0.013 271)",
+          "oklch(72% 0.013 271)",
+          "oklch(84% 0.009 271)",
+          "oklch(95% 0.003 271)"
+        ]
+      },
+      "room-edge": {
+        "role": "neutral",
+        "displayName": "Room Corner",
+        "canonical": "#0c0d12",
+        "tonalRamp": [
+          "oklch(15% 0.007 276)",
+          "oklch(26% 0.010 276)",
+          "oklch(38% 0.011 276)",
+          "oklch(49% 0.011 276)",
+          "oklch(61% 0.011 276)",
+          "oklch(72% 0.011 276)",
+          "oklch(84% 0.007 276)",
+          "oklch(95% 0.003 276)"
+        ]
+      },
+      "screen": {
+        "role": "neutral",
+        "displayName": "Dead Glass",
+        "canonical": "#07080b",
+        "tonalRamp": [
+          "oklch(15% 0.005 269)",
+          "oklch(26% 0.007 269)",
+          "oklch(38% 0.007 269)",
+          "oklch(49% 0.007 269)",
+          "oklch(61% 0.007 269)",
+          "oklch(72% 0.007 269)",
+          "oklch(84% 0.005 269)",
+          "oklch(95% 0.002 269)"
+        ]
+      },
+      "screen-cell": {
+        "role": "neutral",
+        "displayName": "Board Cell",
+        "canonical": "#13151c",
+        "tonalRamp": [
+          "oklch(15% 0.009 273)",
+          "oklch(26% 0.014 273)",
+          "oklch(38% 0.014 273)",
+          "oklch(49% 0.014 273)",
+          "oklch(61% 0.014 273)",
+          "oklch(72% 0.014 273)",
+          "oklch(84% 0.010 273)",
+          "oklch(95% 0.003 273)"
+        ]
+      },
+      "screen-rule": {
+        "role": "neutral",
+        "displayName": "Glass Rule",
+        "canonical": "#191b22",
+        "tonalRamp": [
+          "oklch(15% 0.009 273)",
+          "oklch(26% 0.014 273)",
+          "oklch(38% 0.014 273)",
+          "oklch(49% 0.014 273)",
+          "oklch(61% 0.014 273)",
+          "oklch(72% 0.014 273)",
+          "oklch(84% 0.010 273)",
+          "oklch(95% 0.003 273)"
+        ]
+      },
+      "bezel": {
+        "role": "neutral",
+        "displayName": "Bezel Plastic",
+        "canonical": "#22252d",
+        "tonalRamp": [
+          "oklch(15% 0.010 269)",
+          "oklch(26% 0.015 269)",
+          "oklch(38% 0.016 269)",
+          "oklch(49% 0.016 269)",
+          "oklch(61% 0.016 269)",
+          "oklch(72% 0.016 269)",
+          "oklch(84% 0.011 269)",
+          "oklch(95% 0.004 269)"
+        ]
+      },
+      "bezel-hover": {
+        "role": "neutral",
+        "displayName": "Bezel Under Hand",
+        "canonical": "#2e313b",
+        "tonalRamp": [
+          "oklch(15% 0.012 272)",
+          "oklch(26% 0.018 272)",
+          "oklch(38% 0.018 272)",
+          "oklch(49% 0.018 272)",
+          "oklch(61% 0.018 272)",
+          "oklch(72% 0.018 272)",
+          "oklch(84% 0.013 272)",
+          "oklch(95% 0.004 272)"
+        ]
+      },
+      "led-off": {
+        "role": "neutral",
+        "displayName": "Dark LED",
+        "canonical": "#3a2a29",
+        "tonalRamp": [
+          "oklch(15% 0.015 23)",
+          "oklch(26% 0.023 23)",
+          "oklch(38% 0.024 23)",
+          "oklch(49% 0.024 23)",
+          "oklch(61% 0.024 23)",
+          "oklch(72% 0.024 23)",
+          "oklch(84% 0.017 23)",
+          "oklch(95% 0.006 23)"
+        ]
+      },
+      "desk": {
+        "role": "neutral",
+        "displayName": "Table Laminate",
+        "canonical": "#2a2c32",
+        "tonalRamp": [
+          "oklch(15% 0.007 271)",
+          "oklch(26% 0.011 271)",
+          "oklch(38% 0.011 271)",
+          "oklch(49% 0.011 271)",
+          "oklch(61% 0.011 271)",
+          "oklch(72% 0.011 271)",
+          "oklch(84% 0.008 271)",
+          "oklch(95% 0.003 271)"
+        ]
+      },
+      "desk-edge": {
+        "role": "neutral",
+        "displayName": "Table Edge",
+        "canonical": "#3e414a",
+        "tonalRamp": [
+          "oklch(15% 0.010 271)",
+          "oklch(26% 0.015 271)",
+          "oklch(38% 0.016 271)",
+          "oklch(49% 0.016 271)",
+          "oklch(61% 0.016 271)",
+          "oklch(72% 0.016 271)",
+          "oklch(84% 0.011 271)",
+          "oklch(95% 0.004 271)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Printer Paper",
+        "canonical": "#f2efe6",
+        "tonalRamp": [
+          "oklch(15% 0.008 92)",
+          "oklch(26% 0.012 92)",
+          "oklch(38% 0.012 92)",
+          "oklch(49% 0.012 92)",
+          "oklch(61% 0.012 92)",
+          "oklch(72% 0.012 92)",
+          "oklch(84% 0.009 92)",
+          "oklch(95% 0.003 92)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Toner",
+        "canonical": "#17171a",
+        "tonalRamp": [
+          "oklch(15% 0.004 286)",
+          "oklch(26% 0.006 286)",
+          "oklch(38% 0.006 286)",
+          "oklch(49% 0.006 286)",
+          "oklch(61% 0.006 286)",
+          "oklch(72% 0.006 286)",
+          "oklch(84% 0.004 286)",
+          "oklch(95% 0.001 286)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Faded Toner",
+        "canonical": "#57544c",
+        "tonalRamp": [
+          "oklch(15% 0.009 90)",
+          "oklch(26% 0.013 90)",
+          "oklch(38% 0.013 90)",
+          "oklch(49% 0.013 90)",
+          "oklch(61% 0.013 90)",
+          "oklch(72% 0.013 90)",
+          "oklch(84% 0.009 90)",
+          "oklch(95% 0.003 90)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Dotted Rule",
+        "canonical": "#cfc9bb",
+        "tonalRamp": [
+          "oklch(15% 0.013 88)",
+          "oklch(26% 0.020 88)",
+          "oklch(38% 0.020 88)",
+          "oklch(49% 0.020 88)",
+          "oklch(61% 0.020 88)",
+          "oklch(72% 0.020 88)",
+          "oklch(84% 0.014 88)",
+          "oklch(95% 0.005 88)"
+        ]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Screen Bone",
+        "canonical": "#e9e4d8",
+        "tonalRamp": [
+          "oklch(15% 0.011 88)",
+          "oklch(26% 0.016 88)",
+          "oklch(38% 0.017 88)",
+          "oklch(49% 0.017 88)",
+          "oklch(61% 0.017 88)",
+          "oklch(72% 0.017 88)",
+          "oklch(84% 0.012 88)",
+          "oklch(95% 0.004 88)"
+        ]
+      },
+      "dim": {
+        "role": "neutral",
+        "displayName": "Unlit Gray",
+        "canonical": "#9b9fae",
+        "tonalRamp": [
+          "oklch(15% 0.014 274)",
+          "oklch(26% 0.022 274)",
+          "oklch(38% 0.022 274)",
+          "oklch(49% 0.022 274)",
+          "oklch(61% 0.022 274)",
+          "oklch(72% 0.022 274)",
+          "oklch(84% 0.015 274)",
+          "oklch(95% 0.005 274)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name on the sign-in sheet. One per page. Uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Zone signs. Uppercase."
+      },
+      "tape": {
+        "displayName": "Tape",
+        "purpose": "Project names on tape, uppercase. The marker face appears nowhere else."
+      },
+      "claim": {
+        "displayName": "Claim",
+        "purpose": "The one large line under each seat. Sentence case, balanced wrap."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Organization names on the work-history sheet."
+      },
+      "group": {
+        "displayName": "Group",
+        "purpose": "Group headings on the sign-in roster. Uppercase."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Spec-sheet prose and sign subtitles. Work-history prose runs at 0.97rem, capped at 62ch."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "The intro and roster rows."
+      },
+      "note": {
+        "displayName": "Note",
+        "purpose": "Provenance notes at the foot of a spec sheet, in Faded Toner."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Seat and roster numbers, job dates, HUD readouts, chart text, on-screen text, the colophon."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "The one line at the foot of each spec sheet: stack and code link."
+      }
+    },
+    "shadows": [
+      {
+        "name": "taped-paper",
+        "value": "0 1px 1px rgba(0, 0, 0, 0.35), 0 18px 34px -14px rgba(0, 0, 0, 0.75)",
+        "purpose": "Every sheet. The only drop shadow in the system."
+      },
+      {
+        "name": "led-glow",
+        "value": "0 0 0 2px rgba(226, 81, 59, 0.18)",
+        "purpose": "Ring around the power LED of a lit screen. Light, not elevation."
+      },
+      {
+        "name": "desk-light",
+        "value": "radial-gradient(ellipse 58% 150% at 50% 0%, rgba(240, 232, 210, 0.34), rgba(240, 232, 210, 0.1) 50%, transparent 78%)",
+        "purpose": "Background layer on the desk band under a lit screen, faded in over 900 ms."
+      },
+      {
+        "name": "unlit-display",
+        "value": "brightness(0.36) saturate(0.45)",
+        "purpose": "CSS filter on every display whose seat is not lit. Removed when lit."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Shared ease for power-up, desk light, claim color, roster dot and tape arrow."
+      },
+      {
+        "name": "tick",
+        "value": "140ms",
+        "purpose": "The one clock. Each screen steps every N ticks (Battlesnake 2, Screeps Arena 1, Screeps frames 6, Mage Lords frames 34), only while lit. Off under reduced motion."
+      },
+      {
+        "name": "power-up",
+        "value": "900ms",
+        "purpose": "Display filter and desk light when a seat lights or dims."
+      },
+      {
+        "name": "claim-light",
+        "value": "600ms",
+        "purpose": "Claim color from Unlit Gray to Screen Bone."
+      },
+      {
+        "name": "led",
+        "value": "300ms ease",
+        "purpose": "Power LED color and glow."
+      },
+      {
+        "name": "roster-dot",
+        "value": "260ms",
+        "purpose": "Red dot scaling in beside a lit roster row."
+      },
+      {
+        "name": "tape-arrow",
+        "value": "220ms",
+        "purpose": "Outbound arrow on tape moving 2px up and right on hover."
+      },
+      {
+        "name": "bezel-hover",
+        "value": "200ms ease",
+        "purpose": "Bezel lightening under the pointer."
+      },
+      {
+        "name": "link-hover",
+        "value": "160ms ease",
+        "purpose": "Paper link text turning Ink Red."
+      },
+      {
+        "name": "bar-hover",
+        "value": "120ms ease",
+        "purpose": "Chart bar brightening and tooltip fade."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "960px",
+        "purpose": "max-width. One column, sign-in sheet unpinned at the top, capped at 560px."
+      },
+      {
+        "name": "short",
+        "value": "860px",
+        "purpose": "max-height. Sign-in sheet unpins."
+      },
+      {
+        "name": "compact",
+        "value": "600px",
+        "purpose": "max-width. Roster flows into two columns without descriptions. Job rows stack."
+      },
+      {
+        "name": "small",
+        "value": "480px",
+        "purpose": "max-width. Tighter sheet padding and claim margins."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Name Tape",
+      "kind": "button",
+      "refersTo": "tape",
+      "description": "The seat's one real link: the project name in marker on torn masking tape, with an outbound arrow.",
+      "html": "<h3 class=\"ds-tape\"><a href=\"#\">Battlesnake<svg class=\"ds-tape-out\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M3.5 2.5h6v6M9.5 2.5 2.5 9.5\"/></svg></a></h3>",
+      "css": ".ds-tape { display: inline-block; margin: 0; padding: 7px 18px 1px; font-family: var(--marker); font-weight: 400; font-size: clamp(2rem, 2.5vw, 2.5rem); line-height: 0.95; letter-spacing: 0.01em; text-transform: uppercase; color: var(--ink); background: var(--tape); transform: rotate(-1.2deg); -webkit-mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; } .ds-tape a { color: inherit; text-decoration: none; display: inline-flex; align-items: baseline; } .ds-tape-out { width: 0.36em; height: 0.36em; margin-left: 0.18em; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform 220ms var(--ease); } .ds-tape:has(a:hover) { background-color: #f0e2bb; } .ds-tape a:hover .ds-tape-out { transform: translate(2px, -2px); } .ds-tape a:focus-visible { outline: 2px solid var(--red); outline-offset: -1px; }"
+    },
+    {
+      "name": "Seat",
+      "kind": "custom",
+      "refersTo": "screen",
+      "description": "The repeated project unit: screen in a bezel with a power LED, the desk band with seat number and tape, and the claim. Hover lights it the way scrolling into view does.",
+      "html": "<article class=\"ds-seat\"><a class=\"ds-screen\" href=\"#\" tabindex=\"-1\" aria-hidden=\"true\"><div class=\"ds-display\"><div class=\"ds-board\"></div><p class=\"ds-hud\"><span>turn <b>26</b></span><span>alive <b>2</b></span></p></div></a><div class=\"ds-desk\"><span class=\"ds-seat-no\">01</span><h3 class=\"ds-seat-tape\"><a href=\"#\">Battlesnake</a></h3></div><p class=\"ds-claim\">A snake that plans every move inside half a second.</p></article>",
+      "css": ".ds-seat { display: flex; flex-direction: column; max-width: 420px; padding: 24px; background: var(--room); font-family: var(--sans); } .ds-screen { display: block; position: relative; padding: 10px 10px 16px; background: var(--bezel); border-radius: 7px 7px 3px 3px; color: inherit; text-decoration: none; transition: background-color 200ms ease; } .ds-screen::after { content: ''; position: absolute; right: 14px; bottom: 5px; width: 8px; height: 8px; border-radius: 50%; background: #3a2a29; transition: background-color 300ms ease, box-shadow 300ms ease; } .ds-display { position: relative; aspect-ratio: 4 / 3; background: var(--screen); overflow: hidden; filter: brightness(0.36) saturate(0.45); transition: filter 900ms var(--ease); } .ds-board { position: absolute; left: 50%; top: 46%; width: 62%; aspect-ratio: 1; transform: translate(-50%, -50%); background-color: #13151c; background-image: linear-gradient(var(--screen) 1px, transparent 1px), linear-gradient(90deg, var(--screen) 1px, transparent 1px); background-size: calc(100% / 11) calc(100% / 11); } .ds-board::before { content: ''; position: absolute; left: calc(100% / 11 * 2); top: calc(100% / 11); width: calc(100% / 11 * 3); height: calc(100% / 11); background: #b8891c; } .ds-board::after { content: ''; position: absolute; left: calc(100% / 11 * 8); top: calc(100% / 11 * 5); width: calc(100% / 11); height: calc(100% / 11 * 3); background: #cf5a6a; } .ds-hud { position: absolute; left: 12px; right: 12px; bottom: 8px; margin: 0; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 0.7rem; color: var(--dim); } .ds-hud b { font-weight: 600; color: var(--bone); font-variant-numeric: tabular-nums; } .ds-desk { position: relative; display: flex; align-items: center; gap: 12px; margin: 0 -24px; padding: 14px 24px 15px; background: linear-gradient(var(--desk-edge), var(--desk-edge)) top / 100% 3px no-repeat, var(--desk); } .ds-desk::after { content: ''; position: absolute; inset: 3px 0 0; pointer-events: none; background: radial-gradient(ellipse 58% 150% at 50% 0%, rgba(240, 232, 210, 0.34), rgba(240, 232, 210, 0.1) 50%, transparent 78%); opacity: 0; transition: opacity 900ms var(--ease); } .ds-desk > * { position: relative; z-index: 1; } .ds-seat-no { flex-shrink: 0; padding: 3px 6px 2px; font-family: var(--mono); font-size: 0.69rem; font-weight: 600; color: var(--ink); background: var(--paper); transform: rotate(1deg); } .ds-seat-tape { margin: 0; padding: 7px 18px 1px; font-family: var(--marker); font-weight: 400; font-size: 2.2rem; line-height: 0.95; letter-spacing: 0.01em; text-transform: uppercase; color: var(--ink); background: var(--tape); transform: rotate(-1.2deg); -webkit-mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; } .ds-seat-tape a { color: inherit; text-decoration: none; } .ds-claim { margin: 28px 0 0; font-stretch: 72%; font-weight: 800; font-size: clamp(1.6rem, 2.3vw, 2.15rem); line-height: 1.1; letter-spacing: -0.005em; color: var(--dim); text-wrap: balance; transition: color 600ms var(--ease); } .ds-screen:hover { background: #2e313b; } .ds-seat:has(.ds-screen:hover) .ds-seat-tape, .ds-seat-tape:has(a:hover) { background-color: #f0e2bb; } .ds-seat:hover .ds-display, .ds-seat.is-on .ds-display { filter: none; } .ds-seat:hover .ds-screen::after, .ds-seat.is-on .ds-screen::after { background: var(--red); box-shadow: 0 0 0 2px rgba(226, 81, 59, 0.18); } .ds-seat:hover .ds-desk::after, .ds-seat.is-on .ds-desk::after { opacity: 1; } .ds-seat:hover .ds-claim, .ds-seat.is-on .ds-claim { color: var(--bone); } .ds-seat-tape a:focus-visible { outline: 2px solid var(--red); outline-offset: -1px; }"
+    },
+    {
+      "name": "Spec Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Printed paper taped beside a seat: prose, a spec list, and a provenance note.",
+      "html": "<div class=\"ds-sheet\"><p>Screeps Arena drops the persistent world. Two players' code meets on a small map for one match with a tick limit, and each season brings arenas with their own rules.</p><dl class=\"ds-specs\"><div><dt>Stack</dt><dd>TypeScript, Rollup</dd></div><div><dt>Since</dt><dd>December 2025</dd></div><div><dt>Code</dt><dd><a href=\"#\">github.com/RafeSymonds/Screeps-Arena</a></dd></div></dl><p class=\"ds-note\">The screen is a simplified match simulated in your browser.</p></div>",
+      "css": ".ds-sheet { position: relative; max-width: 420px; margin: 18px 6px 12px; padding: 26px 26px 22px; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 0.95rem; line-height: 1.6; transform: rotate(0.25deg); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35), 0 18px 34px -14px rgba(0, 0, 0, 0.75); } .ds-sheet::before { content: ''; position: absolute; top: -11px; left: 50%; width: 96px; height: 24px; transform: translateX(-50%) rotate(-2deg); background: rgba(230, 213, 168, 0.86); -webkit-mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; } .ds-sheet p { margin: 0; } .ds-specs { margin: 18px 0 0; padding-top: 12px; border-top: 1.5px solid var(--ink); display: grid; gap: 6px; } .ds-specs div { display: grid; grid-template-columns: 4.6em 1fr; gap: 10px; align-items: baseline; } .ds-specs dt { font-family: var(--mono); font-size: 0.69rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); } .ds-specs dd { margin: 0; font-size: 0.88rem; overflow-wrap: anywhere; } .ds-sheet .ds-note { margin-top: 14px; font-size: 0.78rem; line-height: 1.5; color: var(--ink-soft); } .ds-sheet a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--red); text-decoration-thickness: 1.5px; text-underline-offset: 3px; transition: color 160ms ease; } .ds-sheet a:hover { color: var(--red-ink); } .ds-sheet a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Zone Sign",
+      "kind": "custom",
+      "refersTo": "sign",
+      "description": "A small sheet that opens each zone: the zone name in squeezed capitals and an optional one-line subtitle.",
+      "html": "<header class=\"ds-sign\"><h2>Bots that play games</h2><p>Games played by code I wrote, against other people's code.</p></header>",
+      "css": ".ds-sign { position: relative; display: inline-block; max-width: 100%; margin: 18px 6px 12px; padding: 20px 28px 18px; background: var(--paper); color: var(--ink); font-family: var(--sans); transform: rotate(-0.7deg); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35), 0 18px 34px -14px rgba(0, 0, 0, 0.75); } .ds-sign::before { content: ''; position: absolute; top: -11px; left: 50%; width: 96px; height: 24px; transform: translateX(-50%) rotate(-2deg); background: rgba(230, 213, 168, 0.86); -webkit-mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; } .ds-sign h2 { margin: 0; font-stretch: 62.5%; font-weight: 900; font-size: clamp(2.4rem, 4vw, 3.4rem); line-height: 0.9; text-transform: uppercase; } .ds-sign p { margin: 8px 0 0; font-size: 0.95rem; color: var(--ink-soft); }"
+    },
+    {
+      "name": "Sign-in Roster",
+      "kind": "nav",
+      "refersTo": "roster-row",
+      "description": "The site navigation: roster rows on the sign-in sheet. A lit seat shows a red dot and red number. Hover here stands in for the seat lighting.",
+      "html": "<nav class=\"ds-roster-sheet\" aria-label=\"Work and projects\"><table class=\"ds-roster\"><tbody><tr class=\"ds-group\"><th colspan=\"3\"><a href=\"#\">Projects</a></th></tr><tr class=\"is-on\"><td>01</td><td><a href=\"#\">Battlesnake</a></td><td>Rust bot</td></tr><tr><td>02</td><td><a href=\"#\">Screeps</a></td><td>Colony AI</td></tr><tr><td>03</td><td><a href=\"#\">Screeps Arena</a></td><td>Match bot</td></tr></tbody></table></nav>",
+      "css": ".ds-roster-sheet { max-width: 340px; padding: 22px 22px 18px 30px; background: var(--paper); color: var(--ink); font-family: var(--sans); } .ds-roster { width: 100%; border-collapse: collapse; font-size: 0.9rem; } .ds-roster .ds-group th { padding: 0 0 5px; font-stretch: 72%; font-weight: 800; font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.01em; text-align: left; border-bottom: 1.5px solid var(--ink); } .ds-roster tr { position: relative; } .ds-roster td { padding: 4px 0; border-bottom: 1px dotted var(--rule); vertical-align: baseline; } .ds-roster td:first-child { position: relative; width: 3.6em; font-family: var(--mono); font-size: 0.7rem; color: var(--ink-soft); } .ds-roster td:last-child { font-size: 0.82rem; color: var(--ink-soft); text-align: right; } .ds-roster a { color: var(--ink); font-weight: 600; text-decoration: none; } .ds-roster td a::after { content: ''; position: absolute; inset: 0; } .ds-roster .ds-group a { font-weight: inherit; } .ds-roster td:first-child::before { content: ''; position: absolute; left: -15px; top: 50%; width: 7px; height: 7px; margin-top: -3.5px; border-radius: 50%; background: var(--red); transform: scale(0); transition: transform 260ms var(--ease); } .ds-roster tr.is-on td:first-child::before, .ds-roster tr:not(.ds-group):hover td:first-child::before { transform: scale(1); } .ds-roster tr.is-on td:first-child, .ds-roster tr:not(.ds-group):hover td:first-child { color: var(--red-ink); } .ds-roster tr:not(.ds-group):hover a { text-decoration: underline; text-decoration-color: var(--red); } .ds-roster a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Work-History Sheet",
+      "kind": "card",
+      "refersTo": "job",
+      "description": "One printed sheet with a row per job: organization and dates on the left, role line and prose on the right.",
+      "html": "<div class=\"ds-history\"><article class=\"ds-job\"><div><h3>Charles Schwab</h3><p class=\"ds-job-when\">Summer 2025</p></div><div class=\"ds-job-body\"><p class=\"ds-job-role\">Software engineering intern, Fractional Trading</p><p>Java and Spring Boot services across eight connected applications in a real-time trading system, with Kafka carrying the events between them.</p></div></article><article class=\"ds-job\"><div><h3>TechSmith</h3><p class=\"ds-job-when\">Summer 2024</p></div><div class=\"ds-job-body\"><p class=\"ds-job-role\">Software engineering intern</p><p>C++ licensing code for Snagit and Camtasia: Windows libraries, certificates and token handling.</p></div></article></div>",
+      "css": ".ds-history { position: relative; margin: 18px 6px 12px; padding: 30px 32px; background: var(--paper); color: var(--ink); font-family: var(--sans); transform: rotate(0.25deg); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35), 0 18px 34px -14px rgba(0, 0, 0, 0.75); } .ds-history::before { content: ''; position: absolute; top: -11px; left: 50%; width: 96px; height: 24px; transform: translateX(-50%) rotate(-2deg); background: rgba(230, 213, 168, 0.86); -webkit-mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; mask: var(--tear-l) left / 9px 100% no-repeat, linear-gradient(#000 0 0) center / calc(100% - 16px) 100% no-repeat, var(--tear-r) right / 9px 100% no-repeat; } .ds-job { display: grid; grid-template-columns: minmax(150px, 0.34fr) 1fr; gap: 8px 32px; padding: 22px 0; border-top: 1px dotted var(--rule); } .ds-job:first-child { padding-top: 0; border-top: 0; } .ds-job:last-child { padding-bottom: 0; } .ds-job h3 { margin: 0; font-stretch: 72%; font-weight: 800; font-size: clamp(1.45rem, 2vw, 1.8rem); line-height: 1; } .ds-job-when { margin: 8px 0 0; font-family: var(--mono); font-size: 0.72rem; color: var(--ink-soft); } .ds-job-body { font-size: 0.97rem; line-height: 1.6; max-width: 62ch; } .ds-job-body p { margin: 0; } .ds-job-body .ds-job-role { margin-bottom: 6px; font-weight: 600; }"
+    },
+    {
+      "name": "Screen Text Panel",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Mono text on dead glass inside a bezel, as on the Lobs ladder. Rules in Glass Rule, the current row in Masking Tape.",
+      "html": "<div class=\"ds-panel\"><ol class=\"ds-ladder\"><li><span>06</span><span>Jun</span><span>OpenClaw</span></li><li><span>07</span><span>Jul</span><span>Crew</span></li><li><span>08</span><span>Sep</span><span>Software Factory</span></li><li class=\"ds-now\"><span>09</span><span>Sep</span><span>Hermes</span></li></ol></div>",
+      "css": ".ds-panel { max-width: 380px; padding: 10px 10px 16px; background: var(--bezel); border-radius: 7px 7px 3px 3px; } .ds-ladder { list-style: none; margin: 0; padding: 5%; background: var(--screen); font-family: var(--mono); font-size: 0.8rem; color: var(--bone); } .ds-ladder li { display: grid; grid-template-columns: 2.6em 3.2em 1fr; padding: 0.32em 0; color: var(--dim); border-bottom: 1px solid #191b22; } .ds-ladder li:last-child { border-bottom: 0; } .ds-ladder li span:last-child { color: var(--bone); } .ds-ladder .ds-now span { color: var(--tape); }"
+    },
+    {
+      "name": "Paper Link",
+      "kind": "button",
+      "refersTo": "link-paper",
+      "description": "Links printed on paper: Toner text, a red underline, Ink Red under the pointer, an outbound arrow for off-site routes.",
+      "html": "<p class=\"ds-links\"><a href=\"#\">GitHub<svg class=\"ds-link-out\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M3.5 2.5h6v6M9.5 2.5 2.5 9.5\"/></svg></a><a href=\"#\">LinkedIn<svg class=\"ds-link-out\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M3.5 2.5h6v6M9.5 2.5 2.5 9.5\"/></svg></a></p>",
+      "css": ".ds-links { display: flex; gap: 22px; margin: 0; padding: 18px 22px; background: var(--paper); font-family: var(--sans); font-weight: 600; font-size: 0.92rem; } .ds-links a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--red); text-decoration-thickness: 1.5px; text-underline-offset: 3px; transition: color 160ms ease; } .ds-links a:hover { color: var(--red-ink); } .ds-links a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; } .ds-link-out { width: 0.7em; height: 0.7em; margin-left: 4px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; vertical-align: 0.02em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The LAN Party",
+    "overview": "The site is a dark room at a LAN party. Every project has a seat at a folding table: a monitor in a dark bezel with a power light, a strip of masking tape with the project's name written in marker, one large line, and a printed spec sheet taped beside it. A sign-in sheet taped to the wall lists every job and every seat and is the site's navigation. The floor opens with the Work zone, one printed work-history sheet with a row per job, and then the project zones: Bots that play games, Agents, Games I made, Tools. The bots are the players. The screens show real games and real data, and the only light in the room comes from the screens that are on.\n\nDensity is low and the pace is a walk down the tables. Each zone is a paper sign followed by its seats, with wide dark gaps between zones. Only the seats in the middle of the viewport are lit, plus any seat pointed at from the sign-in sheet. Everything else sits in the dark at a third of its brightness, so the visitor's place on the floor shows on the screens and on the sign-in sheet at once. One 140 ms clock drives every screen.\n\nMaterials carry the meaning. Paper holds prose, tape holds names, screens hold motion and data, and the desk band ties a row of seats into one table. The world rejects the dark developer portfolio of a name block over a grid of screenshot cards, rejects serif display faces, and has no light mode. The direction contract put the first two seats in the first viewport. The build moved Work ahead of the projects, so the first viewport is now the sign-in sheet beside the Work sign and work-history sheet. The build is the record.",
+    "keyCharacteristics": [
+      "A dark room lit only by the screens that are in view.",
+      "Three materials with one job each: paper for prose, tape for names, screens for motion and data.",
+      "Paper and tape hang slightly askew. Screens and tables are level.",
+      "One fixed seat unit, repeated in every project zone.",
+      "One shared clock and one red."
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "body": "Red marks state and links, never area. It appears only as an 8px LED, a 7px dot, a 1.5px underline, a 2px focus ring, or the digits of a lit row. No fill, block, or heading is ever red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Surfaces Rule",
+        "body": "Paper and tape are the only light surfaces, and they carry all Toner text. Saturated color other than red appears only inside a display.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Hands Rule",
+        "body": "Archivo prints, the marker writes, the mono computes. The marker appears only on tape. Mono is only for numbers, dates, spec terms, and anything shown on a screen.",
+        "section": "typography"
+      },
+      {
+        "name": "The Capitals Rule",
+        "body": "Capitals are for the name, zone signs, roster group headings, tape, and spec terms. Claims, job titles, and prose stay in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Long Table Rule",
+        "body": "A desk band always spans the full viewport width. Seats sit on tables, and tables are never cards.",
+        "section": "layout"
+      },
+      {
+        "name": "The Only Paper Casts Rule",
+        "body": "Only sheets have a drop shadow. Screens, tape, desks, and seat-number chips are flat. A new surface that needs to lift off the room is a sheet.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Screens Are The Light Rule",
+        "body": "On the dark side, depth comes from a screen turning on. Display brightness, LED, desk light, and claim color change together, and nothing else on the dark side glows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Askew Rule",
+        "body": "Paper and tape are always rotated, by no more than 2 degrees. Screens, desks, and text on the dark are never rotated.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Torn Tape Rule",
+        "body": "Tape always has torn ends from the shared tear masks, and seats next to each other use different tear shapes.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Identical Seat Rule",
+        "body": "Every project seat has the same parts in the same order: screen, desk band with seat number and tape name, claim, spec sheet. A project that does not fit the unit changes what is on its screen, not the unit.",
+        "section": "components"
+      },
+      {
+        "name": "The Lit Seat Rule",
+        "body": "Only seats in the middle of the viewport, or pointed at from the sign-in sheet, are lit. Lighting a seat changes its display, LED, desk light, claim, and roster row together.",
+        "section": "components"
+      },
+      {
+        "name": "The One Clock Rule",
+        "body": "Every screen advances on the shared 140 ms clock, in whole ticks, and only while its seat is lit.",
+        "section": "components"
+      },
+      {
+        "name": "The Labeled Simulation Rule",
+        "body": "A screen that is not recorded footage or real data says so in a note on its spec sheet. The Screeps screen shows real frames recorded from the game client. The Battlesnake and Screeps Arena canvases are labeled simulations.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do put all prose on paper in Toner, and keep the dark room for claims, HUDs, and the colophon.",
+      "Do give every new project the full seat: screen, desk band, seat number, tape name linking to the project's public home, one claim, and a spec sheet.",
+      "Do light a seat only from the lit window or a roster pointer, and drive any new screen from the shared 140 ms clock.",
+      "Do show recorded footage or real data on a screen where it exists, and label anything simulated in the browser with a note on its spec sheet.",
+      "Do rotate paper and tape by a fraction of a degree, and vary tilt and tear shape between neighboring seats.",
+      "Do honor reduced motion: no clock, no swap to animation, instant state changes.",
+      "Do use commas, colons, or periods where a dash might go. Box-drawing lines inside a screen diagram are not dashes."
+    ],
+    "donts": [
+      "Don't use em dashes or en dashes anywhere in copy.",
+      "Don't use bold or strong emphasis inside a sentence of prose. Weight belongs to whole lines: headings, role lines, roster names, link rows, and HUD values.",
+      "Don't add a light theme or any light surface other than paper and tape. The site is dark only.",
+      "Don't use a serif display face. Fraunces was rejected.",
+      "Don't put an email address anywhere on the site. GitHub and LinkedIn are the contact routes.",
+      "Don't fill any area with red, or use red for anything other than a lit state, a link underline, or focus.",
+      "Don't give screens, tape, desks, or chips a drop shadow.",
+      "Don't use the marker face anywhere but tape, or mono for prose.",
+      "Don't add a status light, counter, or \"live\" signal that is not wired to something real.",
+      "Don't box the floor into cards or panels. Zones are separated by dark space and paper signs, and tables run edge to edge."
+    ]
+  }
+}

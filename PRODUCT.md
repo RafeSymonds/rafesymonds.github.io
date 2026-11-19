@@ -30,16 +30,16 @@ Project roster, confirmed 2026-11-19:
 
 - Microsoft (SWE intern, May to July 2026, Azure Hyperscale Networking). Résumé-level facts only: no internal platform names, agent names, or cost figures from the internal deck.
 - Lobs: Lobs on Hermes (live), Crew, Squad. PAW is not a separate flagship; it was folded into Lobs. Software Factory was cut on 2026-11-19 ("that one isn't cool"); it stays only as a line in the Lobs runtime list.
-- Battlesnake (Rust, private repo), Screeps (TypeScript, private repo, played on and off since 2024), Screeps Arena (public repo).
+- Battlesnake (Rust, private repo), Screeps (TypeScript, private repo, played on and off since 2024), Screeps Arena (TypeScript, private repo since 2026-11-19). Screeps and Screeps Arena link to their Steam store pages.
 - Land of the Mage Lords (Steam) and Drawn Together, Pulled Apart (itch.io).
 - excalive (public repo, page at rafesymonds.com/excalive/).
 - Teaching: GSI for EECS 498-016 AASE (Fall 2026), earlier EECS 281 GSI and EECS 291 co-development (Winter 2026).
 
 Project write-ups explain the game or problem itself, then Rafe's history with it, in two short paragraphs at most. Work entries are one plain sentence each, not résumé bullets. AASE has its own Teaching zone because Rafe considers it a big thing.
 
-Private repos (battle-snakes, Screeps, crew) get no code links. Every seat's name and screen link to the project's public home: play.battlesnake.com, the live E14S33 room on screeps.com, GitHub repos, Steam, itch.io, rafesymonds.com/excalive/.
+Private repos (battle-snakes, Screeps, Screeps-Arena, crew) get no code links. Every seat's name and screen link to the project's public home: play.battlesnake.com, the Screeps and Screeps Arena Steam pages, GitHub repos, Steam, itch.io, rafesymonds.com/excalive/.
 
-Screeps is shown as the real game client, not a drawing. Rafe plays on shard 3 as Elrohim; E14S33 is one of his rooms.
+Screeps and Screeps Arena screens use clips from each game's official Steam trailer, credited in a note on the sheet. Rafe accepted the copyright risk of hosting short trailer clips (2026-11-19). He plays Screeps on shard 3 as Elrohim.
 
 ## Brand Commitments
 
@@ -58,7 +58,7 @@ Screeps is shown as the real game client, not a drawing. Rafe plays on shard 3 a
 - excalive example GIFs in `~/other/excalive/examples/*/preview.gif`.
 - Microsoft, from the résumé: orchestration code cut from about 70,000 to 10,000 lines, 100% of production agents migrated, unrecoverable failures down 84%, Copilot sign-in integration that brought Claude to a GPT-only platform.
 - Crew: 314 commits and about 100,000 lines in 22 days.
-- `images/screeps/e14s33-*.webp`: eight consecutive ticks of E14S33 captured from the screeps.com client on 2026-11-19.
+- Screeps screen: a clip of the official Screeps: World Steam trailer (`images/screeps-trailer.mp4`).
 - Battlesnake: Rafe says his snake held a top-3 leaderboard spot while he was playing (stated 2026-11-19). No Screeps ranking is on record; do not invent one.
 - Screeps Arena screen: a clip of the official Steam trailer (`images/arena-trailer.mp4`), because the Arena desktop app is not installed and Rafe asked for the trailer.
 - AASE screen: a screenshot of eecs498-aase.github.io (`images/aase-site.webp`).

@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Just+Another+Hand&family=Martian+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=lan13" />
+  <link rel="stylesheet" href="style.css?v=lan18" />
 </head>
 <body>
   <a class="skip" href="#floor">Skip to the work and projects</a>
@@ -135,36 +135,28 @@
           </article>
 
           <article class="seat" id="screeps" data-seat="screeps">
-            <a class="screen" href="https://screeps.com/a/#!/room/shard3/E14S33" target="_blank" rel="noopener" tabindex="-1">
-              <div class="display">
-                <div class="frames" data-sim="frames" data-every="6">
-                  <img src="images/screeps/e14s33-1.webp" alt="My Screeps room E14S33 on shard 3 in the game client" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-2.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-3.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-4.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-5.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-6.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-7.webp" alt="" width="888" height="666" loading="lazy" />
-                  <img src="images/screeps/e14s33-8.webp" alt="" width="888" height="666" loading="lazy" />
-                </div>
-                <p class="hud hud-over"><span>shard3 <b>E14S33</b></span><span>tick <b data-hud="frame">1</b> of 8</span></p>
+            <a class="screen" href="https://store.steampowered.com/app/464350/Screeps_World/" target="_blank" rel="noopener" tabindex="-1">
+              <div class="display display-media display-cover">
+                <video data-sim="video" muted loop playsinline preload="none" poster="images/screeps-trailer-poster.webp" width="720" height="540" aria-label="Screeps gameplay from the official trailer: a colony's base and a fight around a fortified room">
+                  <source src="images/screeps-trailer.mp4" type="video/mp4" />
+                </video>
               </div>
             </a>
             <div class="desk">
               <span class="seat-no">02</span>
-              <h3 class="tape"><a href="https://screeps.com/a/#!/room/shard3/E14S33" target="_blank" rel="noopener">Screeps<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+              <h3 class="tape"><a href="https://store.steampowered.com/app/464350/Screeps_World/" target="_blank" rel="noopener">Screeps<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
             </div>
             <p class="claim">Screeps is an MMO you can only play by writing code.</p>
             <div class="sheet spec">
             <p>Your JavaScript runs on a shared server every tick and keeps your colony going around the clock, even while you sleep.</p>
             <p>I've played on and off since 2024 and rebuilt my bot from scratch in October. It plays on the official server, and I test it on a private server on my Mac mini that runs 40 times faster.</p>
-            <p class="meta">Written in TypeScript. The repo is private.</p>
-            <p class="note">The screen is my room E14S33, recorded from the game client.</p>
+            <p class="meta">Written in TypeScript. The repo is private. The game is <a href="https://store.steampowered.com/app/464350/Screeps_World/" target="_blank" rel="noopener">on Steam</a>.</p>
+            <p class="note">The screen is from the game's official trailer.</p>
             </div>
           </article>
 
           <article class="seat" id="arena" data-seat="arena">
-            <a class="screen" href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener" tabindex="-1">
+            <a class="screen" href="https://store.steampowered.com/app/1137320/Screeps_Arena/" target="_blank" rel="noopener" tabindex="-1">
               <div class="display display-media display-cover">
                 <video data-sim="video" muted loop playsinline preload="none" poster="images/arena-trailer-poster.webp" width="720" height="540" aria-label="Screeps Arena gameplay from the official trailer">
                   <source src="images/arena-trailer.mp4" type="video/mp4" />
@@ -173,13 +165,13 @@
             </a>
             <div class="desk">
               <span class="seat-no">03</span>
-              <h3 class="tape"><a href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener">Screeps Arena<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
+              <h3 class="tape"><a href="https://store.steampowered.com/app/1137320/Screeps_Arena/" target="_blank" rel="noopener">Screeps Arena<svg class="out" viewBox="0 0 12 12" aria-hidden="true"><path d="M3.5 2.5h6v6M9.5 2.5 2.5 9.5" /></svg></a></h3>
             </div>
             <p class="claim">Screeps Arena turns Screeps into short one-on-one matches.</p>
             <div class="sheet spec">
             <p>Two players' code meets on a small map for one match. In the Spawn Strike mode, you win by destroying the other player's spawn.</p>
             <p>My bot builds an army, keeps a few units at home and sends the rest to attack. I test it offline in my own simulator, against copies of other players' strategies.</p>
-            <p class="meta">Written in TypeScript. The code is on <a href="https://github.com/RafeSymonds/Screeps-Arena" target="_blank" rel="noopener">GitHub</a>.</p>
+            <p class="meta">Written in TypeScript. The repo is private. The game is <a href="https://store.steampowered.com/app/1137320/Screeps_Arena/" target="_blank" rel="noopener">on Steam</a>.</p>
             <p class="note">The screen is from the game's official trailer.</p>
             </div>
           </article>
@@ -318,8 +310,8 @@ CLI       ─┘               ├─▶ approvals
           <article class="seat" id="excalive" data-seat="excalive">
             <a class="screen" href="https://rafesymonds.com/excalive/" tabindex="-1">
               <div class="display display-media display-light">
-                <video data-sim="video" muted loop playsinline preload="none" poster="images/excalive-dns-poster.webp" width="768" height="432" aria-label="An excalive video drawing a DNS lookup step by step">
-                  <source src="images/excalive-dns.mp4" type="video/mp4" />
+                <video data-sim="video" muted loop playsinline preload="none" poster="images/excalive-reel-poster.webp" width="960" height="540" aria-label="excalive videos with the pauses cut: a page view travels to a database, a binary search narrows down, and a leaderboard sorts itself">
+                  <source src="images/excalive-reel.mp4" type="video/mp4" />
                 </video>
               </div>
             </a>
@@ -331,6 +323,7 @@ CLI       ─┘               ├─▶ approvals
             <div class="sheet spec">
             <p>You draw scenes in Excalidraw and write what to say at each step. excalive turns that into a slide deck, or a video read aloud by a voice that runs on your own machine. Before it renders, it checks that every word on screen gets said.</p>
             <p class="meta">Written for Node. The code is on <a href="https://github.com/RafeSymonds/excalive" target="_blank" rel="noopener">GitHub</a>.</p>
+            <p class="note">The screen is three of its example videos, muted and with the pauses cut out.</p>
             </div>
           </article>
         </div>
@@ -342,6 +335,6 @@ CLI       ─┘               ├─▶ approvals
     </main>
   </div>
 
-  <script src="main.js?v=lan13"></script>
+  <script src="main.js?v=lan18"></script>
 </body>
 </html>

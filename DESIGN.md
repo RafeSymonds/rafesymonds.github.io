@@ -368,7 +368,7 @@ The seat's one real link, and the only call to action on the floor.
 - **Ladder (Lobs):** Mono rows in a 2.6em, 3.2em, and remaining-width grid, divided by Glass Rule hairlines. The current row is in Masking Tape.
 
 ### States and Motion
-- **Shared clock:** One 140 ms tick. Each screen advances every N ticks (Battlesnake 2, Screeps frames 6, Mage Lords frames 34), and only while its seat is lit. Videos (Screeps Arena, excalive) and the Drawn Together GIF play only while their seat is lit and motion is allowed. Simulations run a few dozen steps before first paint so they open mid-game.
+- **Shared clock:** One 140 ms tick. Each screen advances every N ticks (Battlesnake 2, Mage Lords frames 34), and only while its seat is lit. Videos (Screeps, Screeps Arena, excalive) and the Drawn Together GIF play only while their seat is lit and motion is allowed. Simulations run a few dozen steps before first paint so they open mid-game.
 - **Lit window:** A seat is lit while its screen's center sits between 18% and 78% of the viewport height. If no seat qualifies, the nearest one within 60% of the viewport height is lit. Hovering or focusing its roster row also lights it.
 - **Easing:** cubic-bezier(0.16, 1, 0.3, 1) for power-up, desk light, claim color, roster dot, and arrow. Plain ease for bezel, LED, link, and bar color changes.
 - **Reduced motion:** The clock never starts, stills never swap to animation, videos never play, and power-up, LED, desk light, and roster dot changes are instant. Smooth scrolling is off.
@@ -383,7 +383,7 @@ The seat's one real link, and the only call to action on the floor.
 
 **The One Clock Rule.** Every screen advances on the shared 140 ms clock, in whole ticks, and only while its seat is lit.
 
-**The Labeled Simulation Rule.** A screen that is not recorded footage or real data says so in a note on its spec sheet. The Screeps screen shows real frames recorded from the game client. The Screeps Arena screen is a clip of the game's official trailer and says so. The Battlesnake canvas is a labeled simulation.
+**The Labeled Simulation Rule.** A screen that is not recorded footage or real data says so in a note on its spec sheet. The Screeps and Screeps Arena screens are clips of each game's official trailer and say so. The Battlesnake canvas is a labeled simulation.
 
 ## Do's and Don'ts
 

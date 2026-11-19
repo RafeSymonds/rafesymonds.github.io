@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Just+Another+Hand&family=Martian+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=lan18" />
+  <link rel="stylesheet" href="style.css?v=lan22" />
 </head>
 <body>
   <a class="skip" href="#floor">Skip to the work and projects</a>
@@ -183,18 +183,13 @@
         <div class="seats">
           <article class="seat" id="lobs" data-seat="lobs">
             <a class="screen" href="https://github.com/lobs-ai/hermes-extras" target="_blank" rel="noopener" tabindex="-1">
-              <div class="display display-text">
-                <ol class="ladder" aria-label="Lobs runtimes, January to September 2026">
-                  <li><span>01</span><span>Jan</span><span>Git repo as shared state</span></li>
-                  <li><span>02</span><span>Feb</span><span>FastAPI and SQLite server</span></li>
-                  <li><span>03</span><span>Mar</span><span>lobs-core, TypeScript</span></li>
-                  <li><span>04</span><span>Apr</span><span>Squad</span></li>
-                  <li><span>05</span><span>May</span><span>agentd, a Rust kernel</span></li>
-                  <li><span>06</span><span>Jun</span><span>OpenClaw</span></li>
-                  <li><span>07</span><span>Jul</span><span>Crew</span></li>
-                  <li><span>08</span><span>Sep</span><span>Software Factory</span></li>
-                  <li class="now"><span>09</span><span>Sep</span><span>Hermes</span></li>
-                </ol>
+              <div class="display display-media">
+                <div class="frames" data-sim="frames" data-every="30">
+                  <img src="images/hermes-1.webp" alt="Hermes Agent artwork by Nous Research: an engraved figure caught in rays of light" width="960" height="720" loading="lazy" />
+                  <img src="images/hermes-2.webp" alt="" width="960" height="720" loading="lazy" />
+                  <img src="images/hermes-3.webp" alt="" width="960" height="720" loading="lazy" />
+                  <img src="images/hermes-4.webp" alt="" width="960" height="720" loading="lazy" />
+                </div>
               </div>
             </a>
             <div class="desk">
@@ -206,20 +201,14 @@
             <p>Lobs runs on a Mac mini all day. It keeps my calendar, tracks course deadlines and sends me a morning brief.</p>
             <p>I rebuilt the system underneath it eight times. In September I moved it onto Hermes, the agent platform from Nous Research, and my own code now goes into small plugins.</p>
             <p class="meta">Written in Python. The code is on <a href="https://github.com/lobs-ai/hermes-extras" target="_blank" rel="noopener">GitHub</a>.</p>
+            <p class="note">The screen is Hermes artwork from Nous Research.</p>
             </div>
           </article>
 
           <article class="seat" id="crew" data-seat="crew">
             <a class="screen" href="https://github.com/lobs-ai" target="_blank" rel="noopener" tabindex="-1">
-              <div class="display display-chart">
-                <p class="chart-title">Commits per day, July 24 to August 13, 2026</p>
-                <div class="bars" data-chart="crew" role="img" aria-label="Crew commits per day. Peak of 103 on August 5. 314 commits total."></div>
-                <p class="chart-axis"><span>Jul 24</span><span>Aug 13</span></p>
-                <table class="sr-only">
-                  <caption>Crew commits per day</caption>
-                  <thead><tr><th scope="col">Day</th><th scope="col">Commits</th></tr></thead>
-                  <tbody data-chart-table="crew"></tbody>
-                </table>
+              <div class="display display-media display-cover display-top">
+                <img src="images/crew-app.webp" alt="The Crew desktop app: the agent list and a chat with the researcher agent scout, who shares a diagram of how a message reaches you" width="900" height="675" loading="lazy" />
               </div>
             </a>
             <div class="desk">
@@ -231,17 +220,14 @@
             <p>Crew was the seventh version of that system, built on Docker. The agents worked with me over Discord and a desktop app.</p>
             <p>I built it in 22 days: 314 commits and about 100,000 lines.</p>
             <p class="meta">Written in Go. The repo is private.</p>
+            <p class="note">The screen is the Crew app running on its built-in demo data.</p>
             </div>
           </article>
 
           <article class="seat" id="squad" data-seat="squad">
             <a class="screen" href="https://github.com/lobs-ai/squad" target="_blank" rel="noopener" tabindex="-1">
-              <div class="display display-text">
-<pre class="diagram" aria-label="Squad architecture: Discord, Slack, the dashboard and the CLI talk over one WebSocket to a gateway, which runs the agent loop, a subagent pool, tasks and questions, approvals, and SQLite">Discord   ─┐               ┌─▶ agent loop
-Slack     ─┤               ├─▶ subagent pool
-Dashboard ─┼─ ws ─▶ gateway┼─▶ tasks, questions
-CLI       ─┘               ├─▶ approvals
-                           └─▶ sqlite</pre>
+              <div class="display display-media display-cover display-top">
+                <img src="images/squad-dashboard.webp" alt="The Squad dashboard: a PR review session split across researcher, reviewer and tester subagents, a question waiting for an answer, and the shared task list" width="1200" height="900" loading="lazy" />
               </div>
             </a>
             <div class="desk">
@@ -253,6 +239,7 @@ CLI       ─┘               ├─▶ approvals
             <p>Agents share a task list with you and start helper agents with their own models and budgets. When they need a decision, they ask a multiple-choice question that shows up as buttons in Discord.</p>
             <p>It was the main Lobs platform until June.</p>
             <p class="meta">Written in TypeScript. The code is on <a href="https://github.com/lobs-ai/squad" target="_blank" rel="noopener">GitHub</a>.</p>
+            <p class="note">The screen is the Squad dashboard running on its demo data.</p>
             </div>
           </article>
         </div>
@@ -335,6 +322,6 @@ CLI       ─┘               ├─▶ approvals
     </main>
   </div>
 
-  <script src="main.js?v=lan18"></script>
+  <script src="main.js?v=lan22"></script>
 </body>
 </html>
